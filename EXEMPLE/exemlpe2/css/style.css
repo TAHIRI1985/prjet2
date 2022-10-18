@@ -1,0 +1,318 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  text-align: center;
+  background-color: #f5e9db;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+header {
+  height: auto;
+}
+.navbar {
+  background-color: #e7d4cf;
+  margin: 10px 20px 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px gray;
+  height: auto;
+}
+.connecte {
+  color: black;
+  text-decoration: none;
+}
+.conn li {
+  list-style: none;
+}
+.bsearch {
+  font-size: 1.5rem;
+  color: gray;
+}
+.bpanier {
+  font-size: 1.5rem;
+  color: gray;
+}
+.bmenu {
+  color: black;
+}
+.divmenu {
+  background-color: #e7d4cf;
+  /* width: 75px;
+  height: 400px; */
+}
+.soceaux a {
+  color: black;
+}
+.soceaux {
+  margin-left: 100px;
+}
+.bBijoux {
+  width: 15px;
+  background-color: #e7d4cf;
+}
+video {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+.bar {
+  margin: 10px 50px;
+  text-decoration: none;
+  color: #cfa340;
+}
+.divbar {
+  background-color: #513e35;
+  height: 75px;
+  margin: 0px 20px 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px gray;
+}
+
+.imgcarosel {
+  border-radius: 40px;
+}
+.logo-bijoux {
+  color: #cfa340;
+  height: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #513e35;
+  margin: 10px 20px 0px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px gray;
+}
+.logo-bijoux a {
+  text-decoration: none;
+  color: #cfa340;
+}
+main {
+  height: auto;
+  padding: 20px;
+  margin: 10px 20px 0px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px gray;
+}
+/******************************************fealsdet************************************/
+fieldset {
+  /* width: 450px;
+  height: 400px; */
+  color: #000;
+  background-color: #fff;
+  margin: 50px 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px gray;
+  transition: all 0.5s ease;
+}
+/* //////////////////f1////////////////////// */
+/* .f1 {
+  width: 450px;
+  height: 350px;
+} */
+#photo1 {
+  visibility: hidden;
+  cursor: pointer;
+  /* height: 100%;
+  width: 100%; */
+  /* transition: all .5s ease; */
+}
+.f1 {
+  /* background-size: 100% 100%; */
+  background-image: url(./images/braslete1-removebg-preview.png);
+}
+.f1:hover #photo1 {
+  visibility: visible;
+}
+.f1:hover {
+  /* width: 550px;
+  height: 420px; */
+  /* transition: all 500ms ease; */
+}
+#photo1:hover {
+  /* width: 550px;
+  height: 420px; */
+  /* transition: all 500ms ease; */
+}
+/* /////////////////f2//////////////////////// */
+/* .f2 {
+  width: 450px;
+  height: 350px;
+} */
+#photo2 {
+  visibility: hidden;
+  cursor: pointer;
+  /* height: 100%;
+  width: 100%; */
+  /* transition: all .5s ease; */
+}
+.f2 {
+  /* background-size: 100% 100%; */
+  background-image: url(./images/b.oreille2.png);
+}
+.f2:hover #photo2 {
+  visibility: visible;
+}
+.f2:hover {
+  /* width: 550px;
+  height: 420px; */
+  /* transition: all 500ms ease; */
+}
+#photo2:hover {
+  /* width: 550px;
+  height: 420px; */
+  /* transition: all 500ms ease; */
+}
+/* //////////////////////f3/////////////////////////// */
+
+/* .f3 {
+  width: 450px;
+  height: 350px;
+} */
+#photo3 {
+  visibility: hidden;
+  cursor: pointer;
+  /* height: 100%;
+  width: 100%; */
+  /* transition: all .5s ease; */
+}
+.f3 {
+  /* background-size: 100% 100%; */
+  background-image: url(./images/bage2.png);
+}
+.f3:hover #photo3 {
+  visibility: visible;
+}
+.f3:hover {
+  /* width: 550px;
+  height: 420px; */
+  /* transition: all 500ms ease; */
+}
+#photo3:hover {
+  /* width: 550px;
+  height: 420px; */
+  /* transition: all 500ms ease; */
+}
+/* ////////////////////////////////////////////f4////////////////////////////////// */
+
+.f4 {
+  /* width: 450px;
+  height: 350px; */
+}
+#photo4 {
+  visibility: hidden;
+  cursor: pointer;
+  /* height: 100%;
+  width: 100%; */
+  /* transition: all .5s ease; */
+}
+.f4 {
+  /* background-size: 100% 100%; */
+  background-image: url(./images/bracelet2.png);
+}
+.f4:hover #photo4 {
+  visibility: visible;
+}
+.f4:hover {
+  /* width: 550px;
+  height: 420px; */
+  /* transition: all 500ms ease; */
+}
+#photo4:hover {
+  /* width: 550px;
+  height: 420px; */
+  /* transition: all 500ms ease; */
+}
+
+/* ///////////////////////////f5/////////////////////// */
+
+.f5 {
+  /* width: 450px;
+  height: 350px; */
+}
+#photo5 {
+  visibility: hidden;
+  cursor: pointer;
+  /* height: 100%;
+  width: 100%; */
+  /* transition: all .5s ease; */
+}
+.f5 {
+  /* background-size: 100% 100%; */
+  background-image: url(./images/b.cheville2.png);
+}
+.f5:hover #photo5 {
+  visibility: visible;
+}
+.f5:hover {
+  /* width: 550px;
+  height: 420px; */
+  /* transition: all 500ms ease; */
+}
+#photo5:hover {
+  /* width: 550px;
+  height: 420px; */
+  /* transition: all 500ms ease; */
+}
+/* //////////////////f6/////////////////////////////////////// */
+/* .f6 {
+  width: 450px;
+  height: 350px;
+} */
+#photo6 {
+  visibility: hidden;
+  cursor: pointer;
+  /* height: 100%;
+  width: 100%; */
+  /* transition: all .5s ease; */
+}
+.f6 {
+  /* background-size: 100% 100%; */
+  background-image: url(./images/collier2.png);
+}
+.f6:hover #photo6 {
+  visibility: visible;
+}
+.f6:hover {
+  /* width: 550px;
+  height: 420px; */
+  /* transition: all 500ms ease; *6*/
+}
+#photo6:hover {
+  /* width: 550px;
+  height: 420px; */
+  /* transition: all 500ms ease; */
+}
+
+/*********************************************footer*************************/
+footer {
+  height: 250px;
+  margin: 10px 20px 20px 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 40px;
+}
+
+.condition {
+  display: flex;
+  justify-content: center;
+}
+.condition a {
+  padding: 30px;
+  color: gray;
+  /* margin-left: 50px;
+   margin-left: 50px; */
+}
+.icon-generale {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  color: gray;
+}
+.icon-generale a {
+  color: gray;
+}
+footer {
+  background-color: #fff;
+}
+.copie {
+  margin-left: 50px;
+}
